@@ -72,23 +72,23 @@ function checkLength(input, min, max){
 form.addEventListener("submit", function (e) {
   e.preventDefault();
 
-  // if(username.value.trim() === ""){
-  //     showError(username, "Username is required");
-  // }
-  // else{
-  //     showSuccess(username);
-  // }
-  // if(email.value.trim() === ""){
-  //     showError(email, "Email is required");
-  // }
-  // else if(!isValidEmail(email.value)){
-  //     showError(email, "Provide a valid Email")
-  // }
-  // else{
-  //     showSuccess(email);
-  // }
+/* if(username.value.trim() === ""){
+    showError(username, "Username is required");
+  }
+  else{
+    showSuccess(username);
+  }
+  if(email.value.trim() === ""){
+    showError(email, "Email is required");
+  }
+  else if(!isValidEmail(email.value)){
+    showError(email, "Provide a valid Email")
+  }
+  else{
+    showSuccess(email);
+  }
 
-  //M E S S Y   W A Y ,  H E N C E  C O M M E N T E D !!!!!
+  M E S S Y   W A Y ,  H E N C E  C O M M E N T E D !!!!!*/
 
   checkRequired([username, email, password, password2]);   
 
