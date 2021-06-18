@@ -59,16 +59,14 @@ h2{
 }
 
 .form-control input {
-    background-color: rgb(235, 255, 255);
-    border: 2px solid #f0f0f0;
-    border-bottom:5.5px solid #00aaf8;
+    background-color:#0000;
+    border-bottom:5px solid #00aaf8;
     border-radius: 4px;
     display: block;
     width: 100%;
     padding: 10px;
+    outline: none;
     font-size: 14px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
 }
 
 .form-control input:focus {
