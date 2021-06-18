@@ -27,14 +27,14 @@ function checkEmail(input) {
     showSuccess(input);
   }
   else{
-    showError(input, "Invalid Email")
+    showError(input, "Invalid Email");
   }
 }
 
 //passwords matching or not 
 function checkMatchPasswords(input1, input2){
   if(input1.value !== input2.value){
-    showError(input2, "Passwords do not match")
+    showError(input2, "Passwords do not match");
   }
 }
 
@@ -98,5 +98,5 @@ form.addEventListener("submit", function (e) {
 
   checkEmail(email);
 
-  checkMatchPasswords(password, password2)
+  checkMatchPasswords(password, password2);
 });
