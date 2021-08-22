@@ -152,5 +152,5 @@ max-height: 100px;
 }
 
 @keyframes rotate{
-  100%{-webkit-transform: rotateX(10deg) skewY(5deg);}
+  100%{transform: rotateX(10deg) skewY(5deg);}
 }
