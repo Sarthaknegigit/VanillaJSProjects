@@ -47,7 +47,7 @@ max-height: 100px;
   z-index: 3;
   left: 40%;
   top: 20px;
-  -webkit-animation:rotate 3s alternate infinite;
+  animation:rotate 3s alternate infinite;
 }
 
 .section {
@@ -151,6 +151,6 @@ max-height: 100px;
   align-content: center;
 }
 
-@-webkit-keyframes rotate{
+@keyframes rotate{
   100%{-webkit-transform: rotateX(10deg) skewY(5deg);}
 }
