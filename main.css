@@ -75,7 +75,7 @@ max-height: 100px;
 .card {
   width: 30rem;
   border-radius: 20px;
-  background-color: darkred;
+  background-color: rgb(196, 56, 56);
   padding: 4rem;
   display: flex;
   flex-direction: column;
