@@ -59,7 +59,8 @@ function validateMsg(msg) {
 
 //getting a random No.
 function getRandomNum() {
-  return Math.floor(Math.random() * 50) + 1;
+  x = Math.floor(Math.random() * 50) + 1;
+  return x;
 }
 
 //Event Listeners
@@ -74,3 +75,4 @@ document.body.addEventListener("click", function (e) {
     window.location.reload();
   }
 });
+console.log(x);
